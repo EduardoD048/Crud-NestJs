@@ -2,6 +2,8 @@ import { Body, Controller , Delete, Get, Param, Post, Put, Query } from '@nestjs
 import { TaskDto, findAllParameters } from './task.dto';
 import { TaskService } from './task.service';
 
+
+// modulo das rotas 
 @Controller('task')
 export class TaskController {
 

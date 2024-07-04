@@ -6,6 +6,8 @@ export class TaskDto {
     experatioDate: Date;
 }
 
+// modulo para manipular dados 
+
 export interface findAllParameters {
     status: string;
     title: string;

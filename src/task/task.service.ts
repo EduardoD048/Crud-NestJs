@@ -1,7 +1,8 @@
     import { HttpException, HttpStatus, Injectable, NotFoundException } from '@nestjs/common';
     import { TaskDto, findAllParameters } from './task.dto';
 
-    @Injectable()
+    // modulo para criação das funções e logicas usadas no controller
+    @Injectable() // injeta a classe TaskService em outras classes
     export class TaskService {
 
         private tasks: TaskDto[] = [];
